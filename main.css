@@ -317,13 +317,20 @@ footer ul li {
 }
 
 .imagen-galeria {
-    height: 500px;
-    width: 400px;
+    height: 375px;
+    width: 300px;
 
-    margin: 20px;
-    
+    margin: 20px;  
+
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 
 
+}
+
+.imagen-galeria:hover {
+    transform: scale(1.2);
 }
 
 #head-fotos {
@@ -337,6 +344,8 @@ footer ul li {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
+
+
 
 /* ************** */
 /* media queries*/
