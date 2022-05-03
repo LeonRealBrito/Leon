@@ -41,6 +41,7 @@ body {
 #nav {
     grid-area: nav;
 
+
 }
 
 main-left {
@@ -68,6 +69,8 @@ main-bottom {
 
 footer {
     grid-area: footer;
+    
+
 }
 
 /* Fin de indicadores de grid */
@@ -77,12 +80,12 @@ footer {
 .logo {
     height: 65px;
     width: 65px;
-    padding: 5px;
+    margin: 5px;
 }
 
 #nav {
     
-    height: 65px;
+
 
     position: relative;
     position: sticky;
@@ -231,8 +234,15 @@ main-right--bottom p {
 /* fin de estilo main-right--bottom*/
 
 /* inicio estilo de main-bottom */
+main-bottom {
+    height: auto;
+    width: auto;
+
+}
 
 .form-hazTuPedido {
+
+    width: 90%;
     
     /* font style */
     font-family: 'Raleway', sans-serif;
@@ -265,13 +275,9 @@ main-right--bottom p {
 
 
 
-form {
+#form-home {
 
     padding: 20px;
-
-    /* flex-box */
-    display: flex;
-    flex-direction: column;
 }
 /* fin estilo de main-bottom */
 
@@ -299,6 +305,8 @@ footer ul {
 footer ul li {
     display: inline;
 }
+
+/* fin estilo de footer */
 
 /* inicio estilos de pagina de galeria */
 .galeria-page {
@@ -369,6 +377,7 @@ footer ul li {
     "main-bottom main-bottom"
     "footer footer";
     }
+
 
 }
 
