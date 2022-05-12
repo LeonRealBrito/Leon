@@ -1,0 +1,111 @@
+
+@import "variables";
+@import "navbar";
+@import "main-left";
+@import "main-right";
+@import "main-left--bottom";
+@import "main-right--bottom";
+@import "main-bottom";
+@import "galeria";
+@import "footer";
+@import "animacion";
+
+
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Inicio grid mobile first */
+
+body {
+    
+    background-color: rgb(212,212,212);
+    background: linear-gradient(0deg, rgba(212,212,212,1) 7%, rgba(255,255,255,0.8281863770898985) 35%);
+
+/* GRID */
+display: grid;
+grid-template-areas: 
+"nav"
+"carrusel-main"
+"main-left"
+"main-right"
+"main-right--bottom"
+"main-left--bottom"
+"main-bottom"
+"footer";
+
+grid-column-gap: 2%;
+}
+
+
+/* indentificadores de grid */
+
+#carrusel-main {
+    grid-area: carrusel-main;
+
+
+}
+
+#nav {
+    grid-area: nav;
+
+
+}
+
+main-left {
+    grid-area: main-left;
+}
+
+main-right {
+    grid-area: main-right;
+
+}
+
+main-left--bottom {
+    grid-area: main-left--bottom;
+
+}
+
+main-right--bottom {
+    grid-area: main-right--bottom;
+}
+
+main-bottom {
+    grid-area: main-bottom;
+}
+
+
+footer {
+    grid-area: footer;
+    
+
+}
+
+/* Fin de indicadores de grid */
+
+
+/* inicio Carrusel estilos */
+
+#carrusel-main {color: white; text-shadow: black 0.1em 0.1em 0.2em}
+
+/* fin Carrusel estilo */
+
+
+/* ************** */
+/* media queries*/
+
+@media screen and (min-width:768px) {
+    body {
+    grid-template-areas: 
+    "nav nav"
+    "carrusel-main carrusel-main"
+    "main-left main-right"
+    "main-left--bottom main-right--bottom"
+    "main-bottom main-bottom"
+    "footer footer";
+    }
+
+
+}

@@ -1,0 +1,31 @@
+/* inicio de estilo main-right--bottom*/
+
+main-right--bottom {
+    margin: 15px;
+
+    padding: $padding1;
+
+
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+    
+        /* font style */
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+    }
+
+    p {
+        padding-top: $padding1;
+    
+        /* font style */
+        font-family: 'Raleway', sans-serif;
+        font-size: $font-size--primary;
+    }
+
+}
+
+/* fin de estilo main-right--bottom*/

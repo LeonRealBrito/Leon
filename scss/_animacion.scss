@@ -1,0 +1,22 @@
+
+// animacion
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(800px);
+        opacity: 0;
+        
+    }
+
+    50% {
+        transform: translateX(20px);
+        opacity: .5;
+        
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+        
+    }
+}

@@ -1,0 +1,42 @@
+/* inicio estilo de main-bottom */
+
+.form-hazTuPedido {
+
+    width: 90%;
+    
+    /* font style */
+    font-family: 'Raleway', sans-serif;
+    
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+
+    
+    margin: 20px;
+
+    background-color: rgb(230,226,226);
+    background: linear-gradient(0deg, rgba(230,226,226,1) 0%, rgba(212,212,212,1) 7%, rgba(255,255,255,0.8281863770898985) 35%);
+    border-radius: 30px;
+
+    #home-pedido {
+        font-size: 25px;
+    
+        border-radius: 15px;
+        background-color: rgb(230,226,226);
+        background: linear-gradient(0deg, rgba(230,226,226,1) 0%, rgba(212,212,212,1) 7%, rgba(255,255,255,0.8281863770898985) 35%);
+    
+        padding: 12px;
+        
+        /* flex-box */
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    #form-home {
+    
+        padding: 20px;
+    }
+}
+/* fin estilo de main-bottom */

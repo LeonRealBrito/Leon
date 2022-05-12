@@ -1,0 +1,23 @@
+/*inicio de estilo de footer*/
+
+footer {
+    padding: 15px;
+    margin: 15px;
+
+    background-color: antiquewhite;
+    border: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline;
+        }
+    }
+}
+
+/* fin estilo de footer */

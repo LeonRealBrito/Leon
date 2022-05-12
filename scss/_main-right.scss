@@ -1,0 +1,30 @@
+/* incio estilo de main-right */
+
+main-right {
+    padding: 0;
+    margin: 0;
+
+    height: auto;
+    width: auto;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        /* Animacion */
+    animation-name: fade-in;
+    animation-iteration-count: 1s;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: .5s;
+
+    .img-pronto {
+
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+/* fin de estilo de main-right */
