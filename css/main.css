@@ -114,14 +114,33 @@ main-right--bottom {
     padding: 20px; }
 
 /* fin estilo de main-bottom */
+.font-color-text-banner-1 {
+  color: #ffedbb; }
+
+.font-color-text-banner-2 {
+  color: #ff9595; }
+
+.font-color-text-banner-3 {
+  color: #77f7f1; }
+
+.boton, .boton-primario {
+  border: solid 2px;
+  padding: 10px 15px;
+  margin: 5px; }
+
+.boton-primario {
+  border-color: #77f7f1;
+  background-color: #ff9595; }
+
 /* inicio estilos de pagina de galeria */
 .galeria-page {
   display: flex;
   justify-content: center;
   margin: 20px; }
   .galeria-page #head-fotos {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem; }
+    font-family: "Raleway";
+    font-size: 2.5rem;
+    margin: 5px; }
 
 .galeria--pics {
   display: flex;

@@ -5,7 +5,7 @@
     width: 90%;
     
     /* font style */
-    font-family: 'Raleway', sans-serif;
+    @include tipografia('Raleway', 25px, 5px);
     
     /* flex-box */
     display: flex;
@@ -19,7 +19,7 @@
     border-radius: 30px;
 
     #home-pedido {
-        font-size: 25px;
+        @include tipografia('Raleway', 25px, 5px);
     
         border-radius: 15px;
         background-color: rgb(230,226,226);

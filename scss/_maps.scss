@@ -1,0 +1,44 @@
+//operaciones
+
+//maps
+
+$font-colors: (
+    text-banner-1: #ffedbb,
+    text-banner-2: #ff9595,
+    text-banner-3: #77f7f1,
+
+
+);
+
+@each $font-color, $color in $font-colors {
+    .font-color-#{$font-color} {
+        color: $color;
+    }
+    
+}
+
+//extend
+
+.boton {
+    border: solid 2px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.boton-primario {
+    @extend .boton;
+
+    border-color: #77f7f1;
+    background-color: #ff9595;
+}
+
+//mixins
+
+@mixin tipografia ($familia-fuente-principal, $tamano, $espaciado) {
+    font-family: $familia-fuente-principal;
+    font-size: $tamano;
+    margin: $espaciado;
+}
+
+
+
